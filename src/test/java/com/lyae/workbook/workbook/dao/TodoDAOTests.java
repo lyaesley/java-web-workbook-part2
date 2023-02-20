@@ -53,9 +53,6 @@ public class TodoDAOTests {
                 .finished(true)
                 .build();
 
-
         todoDAO.updateOne(todoVO);
-
-
     }
 }
